@@ -1,0 +1,20 @@
+.CreateTodoButton, .Button {
+  background: linear-gradient(90deg, #3a506b 0%, #5bc0be 100%);
+  border: none;
+  color: #fff;
+  padding: 13px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+  transition: background 0.3s, color 0.3s, box-shadow 0.2s;
+  letter-spacing: 1px;
+}
+
+.CreateTodoButton:hover, .Button:hover {
+  background: linear-gradient(90deg, #5bc0be 0%, #3a506b 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px #5bc0be33;
+}
